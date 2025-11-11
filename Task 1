@@ -1,1 +1,9 @@
+def fact(number):
+  if number == 0 or number == 1:
+    return 1
+  else:
+    return number * fact(number-1)
 
+number = int(input("Enter first number: "))
+Factorial = fact(number)
+print(f"The factorial of {number} is: ", Factorial)
