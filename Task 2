@@ -1,1 +1,6 @@
+import math
 
+number = int(input("Enter a number: "))
+print("Square root of the number is: ", math.sqrt(number))
+print("Logarithm of the number is: ", math.log(number))
+print("sine of the number is: ", math.sin(number))
